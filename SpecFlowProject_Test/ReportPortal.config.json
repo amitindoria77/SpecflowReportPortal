@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-specflow/master/ReportPortal.SpecFlowPlugin/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "http://localhost:8080/api/v1/",
+    "project": "Demo",
+    "authentication": {
+      "uuid": "8da4f831-4a2c-408b-a43e-712834f81e1b"
+    }
+  },
+  "launch": {
+    "name": "SpecFlow Demo Launch",
+    "description": "demo tests for a Login",
+    "debugMode": true,
+    "tags": [ "Login", "fake" ]
+  }
+}
